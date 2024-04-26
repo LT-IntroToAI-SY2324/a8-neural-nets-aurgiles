@@ -111,6 +111,7 @@ print()
 print(sqn.test_with_expected(sq_training_data))
 print(sqn.evaluate([0.66]))
 print(sqn.evaluate([0.95]))
+print(sqn.evaluate([.01]))
 
 print("\n\nTraining XOR\n\n")
 xor_training_data = [([1, 1], [0]), ([1, 0], [1]), ([0, 1], [1]), ([0, 0], [0])]
